@@ -1,4 +1,4 @@
-# newapp.py — GROQ-friendly with deprecation handling and safer config
+# Cloud API Version
 from flask import Flask, request, jsonify
 import requests
 import os
@@ -75,7 +75,7 @@ def generate_satire():
 
     final_prompt = f"""
 You are a news correspondent for 'The Fauxy', India's top satirical news source.
-Your tone is witty, sarcastic, and darkly humorous. Keep your report short (under 3 paragraphs).
+Your tone is witty, sarcastic, and darkly humorous. Keep your report short (under 1 paragraph).
 Each paragraph should be concise, punchy, and comedic. End with a clever line or fake quote.
 REAL NEWS: {factual_content}
 Now, your satirical version:
