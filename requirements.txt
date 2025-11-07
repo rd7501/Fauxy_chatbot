@@ -4,9 +4,10 @@ torch
 transformers
 peft
 tokenizers
-sentencepiece
-safetensors
+sentencepiece  # Keep if your tokenizer uses SentencePiece (your repo contains `tokenizer.model`)
+safetensors   # Keep if model weights are stored as .safetensors (adapter/merged model files)
+accelerate    # Recommended for multi-GPU / optimized training/inference
+
 # Optional helpers you may need depending on your setup:
-# accelerate
-# bitsandbytes
-# einops
+# bitsandbytes  # for 4-bit/8-bit quantization (install only if you use it)
+# einops        # helpful tensor utilities for some model code
