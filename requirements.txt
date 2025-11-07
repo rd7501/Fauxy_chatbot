@@ -1,0 +1,12 @@
+flask
+requests
+torch
+transformers
+peft
+tokenizers
+sentencepiece
+safetensors
+# Optional helpers you may need depending on your setup:
+# accelerate
+# bitsandbytes
+# einops
