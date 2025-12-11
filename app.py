@@ -6,7 +6,7 @@ import json
 import os
 
 # --- Configuration ---
-NEWS_API_KEY = "c07f349932e1415ebe93921632e5942c" # Your NewsAPI.org key
+NEWS_API_KEY = "NEWS_API_KEY" # Your NewsAPI.org key
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL_NAME = "fauxybot"
 
